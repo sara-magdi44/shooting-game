@@ -1,0 +1,129 @@
+*{
+    margin: 0; padding: 0;
+    font-family:'Press Start 2P';
+    color: #ffff;
+}
+body{
+    background-image: url(img/background.png);
+    height: 100vh;
+}
+.startmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
+    border: 1px double #ffff;
+    border-radius: 5px;
+    margin: 100px auto;
+    background-color: transparent;
+    padding: 50px;
+   
+}
+
+.startmenu h1{
+    text-align: center;
+}
+.startmenu ol{
+    padding: 20px 20px;
+}
+.startmenu ol li{
+    padding: 15px;
+    font-size: 12px;
+    color: #ebdf64;
+}
+.startmenu button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.startmenu button:hover{
+    color:#f83b3a ;
+}
+/* popup */
+.popup.end_game_popup .popup-body button{
+    background-color: #62de6d;
+    padding: 16px;
+    font-size: 18px;
+    width: 285px;
+    border: none;
+}
+.popup.end_game_popup .popup-body button:hover{
+    background-color: #f83b3a;
+}
+.popup-button,
+.register input[type="submit"]{
+    border: none;
+    background-color: #f83b3a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    font-size: 17px;
+    padding: 18px;
+}
+.popup.welcome_popup .popup-title,.popup.end_game_popup .popup-title{
+    font-size: min(28px, 11vw);
+    line-height: 41px;
+    padding:20px;
+}
+/* game */
+.object {
+    position:fixed;
+}
+.ship{
+    width: 150px;
+}
+.bullet{
+    background-color: #f83b3a;
+    width: 6px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+/* timer */
+#countdownTimer{
+    background-color: #f83b3a;
+    text-align: center;
+    padding: 10px;
+}
+
+/* boxes */
+.boxes{
+    width: 50px;
+    height: 50px;
+    background-color: #62de6d;
+    border-radius: 10px;
+}
+.redBox{
+    width: 50px;
+    height: 50px;
+    background-color: #f83b3a;
+    border-radius: 10px;
+}
+/* register */
+.register{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.register input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    color: #f83b3a;
+}
+.speedlevel input[type="radio"]{
+    accent-color: #f83b3a;
+    width: 20px;
+}
+
+footer{
+    text-align: center;
+}
+#score{
+    padding:30px;
+}
